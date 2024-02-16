@@ -11,7 +11,6 @@ public class Main {
             int round = x + 1;
             System.out.println("Round "+ round );
             int numberToGuess = random.nextInt(100 + 1);
-            System.out.println(numberToGuess);
             boolean correctGuess = false;
             for (int i = 0; i <= 2; i++) {
                 System.out.println("Guess a number between 1 - 100");
