@@ -8,8 +8,14 @@ public class Account {
         this.balance = balance;
         this.userName = userName;
     }
+    public void setUserName(String userName){
+        this.userName = userName;
+    }
     public String getUserName(){
         return  userName;
+    }
+    public void setBalance(double balance){
+        this.balance = balance;
     }
     public double getBalance(){
         return balance;
